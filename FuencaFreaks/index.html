@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FuencaFreaks</title>
+    <base href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./styles.css">
+
+
+<link rel="stylesheet" href="styles.6edcf8817dbf5fe29b09.css"></head>
+
+<body>
+    <!-- --------Cabecera-------- -->
+    <header>
+        <!-- NavBar adaptado de Bootstrap -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top scroll">
+            <img src="./assets/img/logo2.png" width="220px" alt="logo_cabecera">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#nosotros">quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#mesa">juegos de mesa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#colaboradores">colaboradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#contacto">contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Parte de la cabecera actualizable con el video de la semana -->
+        <div class="container-fluid actualidad justify-content-center">
+            <div class="row p-5">
+                <div class="col-12 col-lg-6 order-lg-1 order-2 text-center text-white d-flex align-items-end pr-lg-5">
+                    <div class="text-lg-right text-center justify-content-lg-right justify-content-center w-100">
+
+                        <h1 class="titulo">Essentials Kit</h1>
+                        <h3 class="titulo">Lo nuevo de Dungeons & Dragons</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 embed-responsive embed-responsive-16by9  order-lg-2 order-1 ">
+                    <iframe id="video_actualidad" width="560" height="315" src="https://www.youtube.com/embed/RPoHPyAadXo?autoplay=1&amp;mute=1&amp;loop=1" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+                <div class="col-lg-12 descripcion_actualidad order-3">
+                    <img class=" my-4" src="./assets/img/separador.png" width="50%" alt="separador">
+                    <p class="titulo">Hoy os traemos la reseña de este producto con el que los nuevos jugadores aprenderán a crear personajes de los niveles 1-6 y experimentarán la emoción de ser los Dungeon Masters.</p>
+                    <img class="mx-auto d-block mt-3 " src="./assets/img/dnd-logo.png" width="100px" alt="separador">
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </header>
+    <main>
+        <!-- Un breve resumen de quienes somos y cuales son nuestros origenes -->
+        <div class="container-fluid mt-5 pt-5" id="nosotros">
+            <div class="row">
+                <div class="col-lg-6 col-12 d-flex">
+                    <div class=" align-items-center d-flex">
+                        <img class="mx-auto my-auto d-block " src="./assets/img/Logo.png " width="60% " height=" " alt=" ">
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-12 p-5 ">
+                    <p class="text-justify ">
+                        El proyecto FuencaFreaksFactory comienza a forjarse en 2018 por Christopher Fuentes e Ismael Ramos, profesor y alumno de la academia de idiomas Prymates School, en el barrio de Fuencarral.
+                    </p>
+                    <p class="text-justify ">
+                        Teniendo como hobbie común los juegos de mesa modernos y los juegos de rol, se percataron de una ausencia de agrupaciones que promovieran la afición en la mitad norte de Madrid; por ello entre palabrerías, risas y bromas en una tarde de juego, una de
+                        sus voces pronunció lo que sería el inicio de todo esto:
+                    </p>
+                    <blockquote class="text-center text-danger ">"¿Y si creamos un Club de Juegos de Mesa y Rol que acoja y reuna a todos los juegones de Fuencarral y alrededores?... "</blockquote>
+                    <p class="text-justify ">Ya estaba hecho, no había marcha atras. Nos pusimos manos a la obra con este mitad proyecto mitad sueño, y desde ese día no hemos dejado de crecer</p>
+                    <p class="text-justify ">A pesar de no estar aun constituidos oficialmente como Club, seguimos los pasos en esa dirección. A día de hoy contamos con un grupo de más de 100 personas, un grupo de Staff que se encarga de organizar actvidades regulares, varios
+                        canales y tiendas colaboradoras y sobre todo muchas muchas ganas de seguir creciendo y no dejar de jugar.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Sección en la qque presentaremos las diferentes categorias de juegos de mesa, así como algunos de los mas relevantes con los que contamos en el club -->
+        <div class="container-fluid  py-5 " id="mesa">
+            <div class="row w-50 d-flex mx-auto pt-5">
+                <div class="col-12 p-2" id="titulo-mesa">
+                    <h2 class="text-center m-3">
+                        Nuestros Juegos de Mesa
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img class="mx-auto d-block my-4" src="./assets/img/separador.png" width="80%" alt="separador">
+                </div>
+            </div>
+            <div class="row p-2 d-flex justify-content-around">
+                <!-- Carrusel y explicación de los Eurogames -->
+                <div class="col-10 col-lg-3 m-1 pie-juegos1" id="euro">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-12 p-4">
+                            <div class="carousel slide" id="euro-carousel" data-ride="carousel">
+
+                                <ol class="carousel-indicators">
+                                    <li data-target="euro-carousel" data-slid-to="0" class="active"></li>
+                                    <li data-target="#euro-carousel" data-slid-to="1"></li>
+                                    <li data-target="#euro-carousel" data-slid-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="" data-toggle="modal" data-target="#ventana-abomination"><img class="d-block w-100" src="./assets/img/abomination.jpg" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="" data-toggle="modal" data-target="#ventana-brass"><img class="d-block w-100" src="./assets/img/brass.jpg" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="" data-toggle="modal" data-target="#ventana-terra"><img class="d-block w-100" src="./assets/img/terraforming.jpg" alt=""></a>
+                                    </div>
+                                    <a href="#euro-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a href="#euro-carousel" class="carousel-control-next" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Siguiente</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- definicion de Eurogames -->
+                        <div class="col-12 col-md-6 col-lg-12 px-4 pb-4 pt-0 d-flex align-items-end">
+                            <div class=" w-100  mx-auto">
+                                <h3 class="text-center">Eurogames</h3>
+                                <p class="text-center m-2">Se caracteriza por la mayor importancia de la mecánica de juego respecto a su tema o ambientación. Alto componente estratégico basado en la obtención de puntos de victoria</p>
+                            </div>
+                        </div>
+
+                        <!-- TARJETA ABOMINATION-->
+                        <div class="modal fade" id="ventana-abomination" tabindex="-1" role="dialog" aria-labelledby="ventana-abomination" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title text-danger text-center">Abomination: El heredero de Frankestein</h5>
+                                        <buton class="close" data-dismiss="modal" aria-label="Cerrar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </buton>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="mx-auto d-block img-thumbnail img-rounded" width="100%" src="./assets/img/abomintarjeta.jpg" alt="abomination tarjeta">
+                                        </div>
+                                        <p class="text-justify p-3">
+                                            El Heredero de Frankenstein es un juego con mecánica principal de colocación de trabajadores en el que, a lo largo de un número determinado de rondas, los jugadores intentarán componer una criatura para que sirva de acompañante al Monstruo de Frankenstein
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TARJETA BRASS-->
+                        <div class="modal fade" id="ventana-brass" tabindex="-1" role="dialog" aria-labelledby="ventana-brass" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title text-danger text-center">Brass Birmingham</h5>
+                                        <buton class="close" data-dismiss="modal" aria-label="Cerrar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </buton>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="mx-auto d-block img-thumbnail img-rounded" width="100%" src="./assets/img/brasstarjeta.jpeg" alt="brass tarjeta">
+                                        </div>
+                                        <p class="text-justify p-3">
+                                            Recrea la historia de los emprendedores que compitieron en Birmingham y sus alrededores durante la Revolución Industrial de Inglaterra. Expandirás tu imperio construyendo canales y líneas de ferrocarril, y construirás y desarrollarás varios tipos de industrias,
+                                            como fábricas algodoneras, minas de carbón, talleres, cervecerías, fundiciones de hierro y alfarerías.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TARJETA TERRAFORMING-->
+                        <div class="modal fade" id="ventana-terra" tabindex="-1" role="dialog" aria-labelledby="ventana-terra" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title text-danger text-center">Terraforming Mars</h5>
+                                        <buton class="close" data-dismiss="modal" aria-label="Cerrar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </buton>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="mx-auto d-block img-thumbnail img-rounded" width="100%" src="./assets/img//terratarjeta.jpg" alt="terra tarjeta">
+                                        </div>
+                                        <p class="text-justify p-3">
+                                            El objetivo es intentar terraformar marte y para ello representamos una corporación que, a través de cartas de proyectos tendrá que conseguir hacer el planeta habitable aumentando tres parámetros: el nivel de oxígeno, la temperatura y la cantidad de océanos.
+                                            Cuando lo consigamos, terminaremos la partida y el que más puntos de terraformación haya conseguido, será el ganador.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Carrusel y explicación de los Ameritrash -->
+                <div class="col-10 col-lg-3 m-1 pie-juegos2" id="amer">
+                    <div class="row align-content-between">
+                        <div class="col-12 col-md-6 col-lg-12 p-4  order-lg-1 order-md-2">
+                            <div class="carousel slide" id="amer-carousel" data-ride="carousel">
+
+                                <ol class="carousel-indicators">
+                                    <li data-target="amer-carousel" data-slid-to="0" class="active"></li>
+                                    <li data-target="#amer-carousel" data-slid-to="1"></li>
+                                    <li data-target="#amer-carousel" data-slid-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="" data-toggle="modal" data-target="#ventana-fabulas"><img class="d-block w-100" src="./assets/img/fabulas.jpg" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="" data-toggle="modal" data-target="#ventana-mansiones"><img class="d-block w-100" src="./assets/img/mansiones.jpg" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="" data-toggle="modal" data-target="#ventana-viajestierra"><img class="d-block w-100" src="./assets/img/viajestierra.jpg" alt="">
+                                    </div>
+                                    <a href="#amer-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a href="#amer-carousel" class="carousel-control-next" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Siguiente</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Definicion de Ameritrash -->
+                        <div class="col-12 col-md-6 col-lg-12 px-4 pb-4 pt-0 d-flex align-items-end order-md-1 order-lg-2">
+                            <div class=" w-100  mx-auto">
+                                <h3 class="text-center">Ameritrash</h3>
+
+                                <p class="text-center m-2">Basados en una temática muy potente, una alta incidencia del factor suerte, la posibilidad de quedar eliminados antes del final de la partida y una fuerte interacción entre los jugadores</p>
+                            </div>
+                        </div>
+                        <!-- TARJETA FABULAS-->
+                        <div class="modal fade" id="ventana-fabulas" tabindex="-1" role="dialog" aria-labelledby="ventana-fabulas" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title text-danger text-center">Fábulas de Peluche</h5>
+                                        <buton class="close" data-dismiss="modal" aria-label="Cerrar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </buton>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="mx-auto d-block img-thumbnail img-rounded" width="100%" src="./assets/img/fabulastarjeta.jpg" alt="fabulas tarjeta">
+                                        </div>
+                                        <p class="text-justify p-3">
+                                            Fábulas de Peluche es un juego de aventuras en el que los jugadores asumen el papel de valientes peluches que buscan salvar a la niña que adoran de una intrigante y malvada entidad que le acecha cada noche. Interesante mecánica de dados que nos permitirá
+                                            ir sorteando cada uno de los obstaculos y enemigos
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TARJETA MANSIONES-->
+                        <div class="modal fade" id="ventana-mansiones" tabindex="-1" role="dialog" aria-labelledby="ventana-mansiones" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title text-danger text-center">Mansiones de la Locura</h5>
+                                        <buton class="close" data-dismiss="modal" aria-label="Cerrar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </buton>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="mx-auto d-block img-thumbnail img-rounded" width="100%" src="./assets/img/mansionestarjeta.jpg" alt="mansiones tarjeta">
+                                        </div>
+                                        <p class="text-justify p-3">
+                                            Se trata de auténtico dungeon crawler ambientado en el Arkham de los años 20. Un juego guiado mediante una aplicación en el que asumiremos el papel de investigadores comunes que se enfrentarán a temibles horrores cosmicos nacidos de la obra literaria
+                                            de H.P.Lovecraft. ¿Serás capaz de resolver los misterios sin perder la vida ni la cordura?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TARJETA-VIAJES-->
+                        <div class="modal fade" id="ventana-viajestierra" tabindex="-1" role="dialog" aria-labelledby="ventana-viajestierra" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title text-danger text-center">ESDLA: Viajes por la Tierra Media</h5>
+                                        <buton class="close" data-dismiss="modal" aria-label="Cerrar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </buton>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="mx-auto d-block img-thumbnail img-rounded" width="100%" src="./assets/img/viajestarjeta.jpg" alt="viajes tarjeta">
+                                        </div>
+                                        <p class="text-justify p-3">
+                                            Se trata de un juego colaborativo de miniaturas para 1 a 5 jugadores y entre 90 y 120 minutos de duración donde seremos personajes del mítico universo creado por J.R.R. Tolkien viviendo una serie de aventuras a través de una campaña de más de 10 episodios.
+                                            Deberemos atacar a enemigos, interactuar con PnJ u otros elementos del tablero, o explorar para avanzar en la partida.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carrusel y explicación de los Fillers -->
+                <div class="col-10 col-lg-3 m-1 pie-juegos3" id="filler">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-12 p-4">
+                            <div class="carousel slide" id="filler-carousel" data-ride="carousel">
+
+                                <ol class="carousel-indicators">
+                                    <li data-target="filler-carousel" data-slid-to="0" class="active"></li>
+                                    <li data-target="#filler-carousel" data-slid-to="1"></li>
+                                    <li data-target="#filler-carousel" data-slid-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="" data-toggle="modal" data-target="#ventana-exploding"><img class="d-block w-100" src="./assets/img/exploding.jpg" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="" data-toggle="modal" data-target="#ventana-pasajeros"><img class="d-block w-100" src="./assets/img/pasajeros.jpg" alt=""></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="" data-toggle="modal" data-target="#ventana-tsuro"><img class="d-block w-100" src="./assets/img/tsuro.jpg" alt=""></a>
+                                    </div>
+                                    <a href="#filler-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a href="#filler-carousel" class="carousel-control-next" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Siguiente</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Descripcion Fillers -->
+                        <div class="col-12 col-md-6 col-lg-12 px-4 pb-4 pt-0 d-flex align-items-end">
+                            <div class="w-100  mx-auto">
+                                <h3 class="text-center">Fillers</h3>
+                                <p class="text-center m-2">Se trata de un tipo de juego de mesa sencillo. Por lo general prescinden de excesivos elementos de juego, limitándose en la mayoría de ocasiones al uso exclusivo de cartas y/o dados</p>
+                            </div>
+
+                        </div>
+                        <!-- TARJETA-EXPLODING-->
+                        <div class="modal fade" id="ventana-exploding" tabindex="-1" role="dialog" aria-labelledby="ventana-exploding" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title text-danger text-center">Exploding Kittens</h5>
+                                        <buton class="close" data-dismiss="modal" aria-label="Cerrar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </buton>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="mx-auto d-block img-thumbnail img-rounded" width="100%" src="./assets/img/explodingtarjeta.jpg" alt="explodingtarjeta">
+                                        </div>
+                                        <p class="text-justify p-3">
+                                            El juego consiste en una baraja de cartas que contiene algunos Exploding Kittens. Para jugar, se coloca la baraja boca abajo y los jugadores roban cartas por turnos hasta que a uno de ellos le sale un Exploding Kitten. Cuando esto sucede, esa persona
+                                            explota. El jugador está muerto y queda eliminado de la partida
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TARJETA-PASAJEROS-->
+                        <div class="modal fade" id="ventana-pasajeros" tabindex="-1" role="dialog" aria-labelledby="ventana-pasajeros" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title text-danger text-center">Ticket to Ride: London</h5>
+                                        <buton class="close" data-dismiss="modal" aria-label="Cerrar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </buton>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="mx-auto d-block img-thumbnail img-rounded" width="100%" src="./assets/img/tickettarjeta.jpg" alt="ticket tarjeta">
+                                        </div>
+                                        <p class="text-justify p-3">
+                                            Frente a un mapa con rutas de 1 a 4 segmentos, los jugadores deberán obtener cartas de colores para poder reclamar rutas descartando grupos de cartas de un mismo color. El objetivo es intentar completar el máximo número de cartas de destino posible, teniendo
+                                            en cuenta que cada carta de destino en mano no completada restará puntos en vez de sumar al final de la partida
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TARJETA-TSURO-->
+                        <div class="modal fade" id="ventana-tsuro" tabindex="-1" role="dialog" aria-labelledby="ventana-tsuro" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title text-danger text-center">Tsuro: El Juego de las Rutas</h5>
+                                        <buton class="close" data-dismiss="modal" aria-label="Cerrar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </buton>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="mx-auto d-block img-thumbnail img-rounded" width="100%" src="./assets/img/tsurotarjeta.JPG" alt="tsuro tarjeta">
+                                        </div>
+                                        <p class="text-justify p-3">
+                                            Filler muy sencillo y rápido de jugar. Vuestro objetivo en este interesante juego es ir trazando caminos con unas losetas que los representan intentando permanecer en el tablero el mayor tiempo posible a la vez que intentáis echar fuera a los demás. Ya
+                                            está, solamente es esto. Pueden jugar de 2 a 8 jugadores, algo muy positivo, ya que con tantos jugadores es muy caótico y hay que estar en todo momento atento a las jugadas de todos. Un juego de estrategia ideal
+                                            para iniciarse en el mundo de los juegos de mesa.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid  py-5 " id="colaboradores">
+            <div class="row w-50 d-flex mx-auto pt-5">
+                <div class="col-12 p-2" id="titulo-colab">
+                    <h2 class="text-center m-3">
+                        Nuestros Amigos
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img class="mx-auto d-block my-4" src="./assets/img/separador.png" width="80%" alt="separador">
+                </div>
+            </div>
+            <div class="row p-2 d-flex justify-content-around">
+
+                <div class="col-10  m-3 p-3" id="altru">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-12 col-md-4 align-items-center  justify-content-center d-flex">
+                            <a href="https://www.youtube.com/channel/UCyee7j_fwDlMcA_tAs6LDHA" target="_blank"><img class="d-block w-75 mx-auto" src="./assets/img/altru.png" alt=""></a>
+                        </div>
+                        <div class="col-12 col-md-8 align-items-center">
+                            <h3 class="text-danger b-block text-center mt-4">Altru No Existe</h3>
+                            <p class="mt-2 text-center">
+                                Apareció por primera vez por FuencaFreaksFactory en uno de nuestros eventos, y llegó para quedarse. Alvaro es un gran profesional en su campo, al igual que un apasionado de los juegos de mesa. Si te das un paseo por su canal, podrás difrutar de muchos
+                                de los videos con los que nos deleita cada semana.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10  m-3 p-3" id="contemplarol">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-12 col-md-4 align-items-center justify-content-center d-flex order-0 order-md-1">
+                            <a href="https://www.youtube.com/channel/UC0fpCTUDyoocWZg5mvDQA4Q" target="_blank"><img class="d-block w-75 mx-auto" src="./assets/img/contemplarol.png" alt=""></a>
+                        </div>
+                        <div class="col-12 col-md-8 align-items-center order-1 order-md-0">
+                            <h3 class="text-danger b-block text-center mt-4">El Contemplarol</h3>
+                            <p class="mt-2 text-center">
+                                No todos tienen la suerte de contar entre sus amigos y colaboradores con uno de los mejores club de juegos de rol que puedan existir. No te pierdas lo que se cuece en su guarida y si tienes oportunidad, apuntate a una de sus partidas. Su equipo de directores
+                                de juego narradores son canela en rama. Para abrir boca, no dejes de visitar su canal.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10  m-3 p-3" id="gato">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-12 col-md-4 align-items-center justify-content-center d-flex">
+                            <a href="https://www.youtube.com/channel/UCllarkOxMy2mnnF_gpKxWbQ" target="_blank"><img class="d-block w-75 mx-auto" src="./assets/img/gato.png" alt=""></a>
+                        </div>
+                        <div class="col-12 col-md-8 align-items-center">
+                            <h3 class="text-danger b-block text-center mt-4">El Gato en el Tablero</h3>
+                            <p class="mt-2 text-center">
+                                Pocas palabras hay para definir a esta increible familia, que han llevado los juegos de mesa a ser un fuerte nexo de union entre ellos. Desde los juegos más duros, a los juegos más adaptados para los peques de la casa, seré lo que te encontrarás si te
+                                animas a conocerlos. Además Joju y Naza harán que descubrir nuevos juegos sea de lo más divertido.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10  m-3 p-3" id="oca">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-12 col-md-4 align-items-center justify-content-center d-flex order-0 order-md-1">
+                            <a href="https://www.youtube.com/channel/UCD3ss62V-JPXZbFdfjQIrnw" target="_blank"><img class="d-block w-75 mx-auto" src="./assets/img/oca.png" alt=""></a>
+                        </div>
+                        <div class="col-12 col-md-8 align-items-center order-1 order-md-0">
+                            <h3 class="text-danger b-block text-center mt-4">Territorio Oca</h3>
+                            <p class="mt-2 text-center">
+                                Prepárate Ave Guerrera, por que desde lo más alto del firmamento lúdico llegan estos amigos, con el gran Rafa, más conocido como Oca al frente. Si quieres disfrutar de tertulias, juegos de mesa, juegos de rol, grandes entrevistas, podcasts y un largo
+                                etcetera, no dejes de darte un vuelo por Territorio Oca!.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid" id="contacto">
+            <div class="row d-flex justify-content-around p-5">
+                <div class="col-2 col-lg-1 btn btn-danger">
+                    <a href="https://www.instagram.com/fuencafreaksfactory/?hl=es" target="_blank" class=""><img src="./assets/img/instagram.png" class="d-block w-100 mx-auto" alt=""></a>
+                </div>
+                <div class="col-2 col-lg-1 btn btn-danger">
+                    <a href="https://twitter.com/FuencaFreaks" target="_blank" class=""><img src="./assets/img/twitter.png" class="d-block w-100 mx-auto" alt=""></a>
+                </div>
+                <div class="col-2 col-lg-1 btn btn-danger">
+                    <a href="mailto:fuencafreaksfactory@gmail.com" class=""><img src="./assets/img/mail.png" class="d-block w-100 mx-auto" alt=""></a>
+                </div>
+                <div class="col-2 col-lg-1 btn btn-danger">
+                    <a href="https://www.meetup.com/es-ES/FUENCAFREAKSFACTORY/" target="_blank" class=""><img src="./assets/img/Meetup_Logo.png" class="d-block w-100 mx-auto" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ---------Scripts de Bootstrap, Popper y JQuery--------- -->
+    <script src="./js/jquery-3.5.1.min.js "></script>
+    <script src="./js/bootstrap.min.js "></script>
+    <script src="./js/popper.min.js "></script>
+
+<script src="runtime.7b63b9fd40098a2e8207.js" defer></script><script src="polyfills.6abdde2583a2e01a2350.js" defer></script><script src="scripts.4c002ca8b18d188c90c6.js" defer></script><script src="main.867b7ac94c8e3f8e4b57.js" defer></script></body>
+
+</html>
